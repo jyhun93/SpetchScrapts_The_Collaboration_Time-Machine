@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spetch and Scrapts Generative AI</title>
+</head>
+<body>
+	<h1>Spetch and Scrapts! The Collaboration Time Machine!</h1>
+	<form method="POST">
+		<label>Enter Your First Artist:</label>
+		<!-- the double {} pulls the variable from our python script -->
+	  	<input name=first_artist type="text" value={{my_first_artist}}><br><br>
+
+	  	<label>Enter Your Second Artist:</label>
+	  	<input name=second_artist type="text" value={{my_second_artist}}><br><br>
+
+	  	<label>Enter the Historical Event:</label>
+	  	<input name=question type="text" value={{my_question}}><br><br>
+
+	  	<input type="submit" value="Submit"><br><br>
+	</form>
+	<p>Opens a new browser window for the image: <a href={{bot_response}}>HERE</a></p>
+	<img src={{bot_response}} alt="GenerativeImage">
+</body>
+</html>
