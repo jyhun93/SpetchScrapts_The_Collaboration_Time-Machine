@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'OffBit-Bold';
+    src: url('/static/fonts/OffBitTrial-DotBold.otf') format('woff'),
+         url('/static/fonts/OffBitTrial-DotBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: #fbfbfb;
+    font-family: 'OffBit-Bold', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 72px;
+    letter-spacing: 0.05em;
+    transition: color 0.3s;
+}
+
+h1:hover {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 14px;
+    color: #fff;
+    border: 0px;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    font-family: 'OffBit-Bold';
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+    border-radius: 14px;
+    color: #000000;
+    border: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'OffBit-Bold';
+}
+
+a {
+    text-decoration: none;
+    color: #fbfbfb;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+
