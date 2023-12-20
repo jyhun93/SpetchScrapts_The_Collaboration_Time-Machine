@@ -3,10 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 	<title>Spetch and Scrapts Generative AI</title>
 </head>
 <body>
-	<h1>Spetch and Scrapts! The Collaboration Time Machine!</h1>
+	<div class="container">
+	<h1>Spetch and Scrapts! <br><br> The Collaboration Time Machine!</h1>
 	<form method="POST">
 		<label>Enter Your First Artist:</label>
 		<!-- the double {} pulls the variable from our python script -->
@@ -22,5 +24,6 @@
 	</form>
 	<p>Opens a new browser window for the image: <a href={{bot_response}}>HERE</a></p>
 	<img src={{bot_response}} alt="GenerativeImage">
+	</div>
 </body>
 </html>

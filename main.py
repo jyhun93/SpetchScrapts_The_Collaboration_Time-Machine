@@ -22,8 +22,8 @@ with open("historical_key.txt", "r") as f:
     key = f.read()
 
 #wiki_wiki = wikipediaapi.Wikipedia('MyProjectName (merlin@example.com)', 'en')
-wiki_wiki = wikipediaapi.Wikipedia('English')
-page_py = wiki_wiki.page("Vincent_Willem_van_Gogh")
+#wiki_wiki = wikipediaapi.Wikipedia('English')
+#page_py = wiki_wiki.page("Vincent_Willem_van_Gogh")
 #print("Page - Summary: %s" % page_py.summary[0:8000])
 #print(page_py.summary[0:8000])
 
